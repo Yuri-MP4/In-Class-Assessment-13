@@ -17,14 +17,15 @@ body {
 h1 {
   padding: 1rem;
   font-size: 1.5rem;
-  background-color: #EBB760;
+  background-color: #565E66;
   text-align: center;
- letter-spacing: 1px;
+  letter-spacing: 1px;
+  color: white;
 }
 
 .intro
 {
-  border-radius: 15px 15px 0px 0px
+  border-radius: 15px 15px 0px 0px;
 }
 
 h2 {
@@ -41,6 +42,8 @@ a {
   font-size: .8rem;
   text-decoration: none;
   text-transform: uppercase;
+  color: white;
+  font-style: italic;
 }
 
 a:hover{
@@ -51,4 +54,40 @@ a:hover{
     display: grid;
     grid-template: repeat(3, 250px) / repeat(2, 250px);
     margin-bottom: 25px;
+}
+
+.text1, .text3, .text2 {
+  padding: 2rem 1.5rem 0 1rem;
+  text-align: center;
+  color: white;
+}
+
+.text1 {
+  background-color: #50634D;
+}
+
+.text2 {
+  background-color: #805C5C;
+}
+
+.text3 {
+  background-color: #7C5C80;
+}
+
+.image1 {
+  background-image: url("https://i.pinimg.com/originals/cd/45/68/cd45682f2df32f33bd67b44e586aebc8.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abandoned-garden-with-palm-trees-roman-robroek.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  background-image: url("https://i.ytimg.com/vi/7EVRpmG_6s0/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
 }
