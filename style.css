@@ -5,6 +5,50 @@
 }
 
 html {
-  font-size: 24px;
-  color: #144031;
+  font-size: 16px;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+h1 {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #EBB760;
+  text-align: center;
+ letter-spacing: 1px;
+}
+
+.intro
+{
+  border-radius: 15px 15px 0px 0px
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-bottom: .4em;
+  padding-top: .4em;
+}
+
+p {
+  padding-bottom: .6em;
+}
+
+a {
+  font-size: .8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.grid-content{
+    display: grid;
+    grid-template: repeat(3, 250px) / repeat(2, 250px);
+    margin-bottom: 25px;
 }
