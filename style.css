@@ -55,6 +55,9 @@ a:hover{
     display: grid;
     grid-template: repeat(3, 250px) / repeat(2, 250px);
     margin-bottom: 25px;
+  /*Alternate layout test--->
+  grid-template-columns: 2fr 3fr;
+  */
 }
 
 .text1, .text3, .text2 {
