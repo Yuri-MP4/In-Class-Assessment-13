@@ -39,6 +39,11 @@ h1 {
   border-radius: 15px 15px 0px 0px;
 }
 
+
+ .brand{
+  font-weight: 850;
+}
+
 .outro{
 border-radius: 0px 0px 15px 15px;
 }
