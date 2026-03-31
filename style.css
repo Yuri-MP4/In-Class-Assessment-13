@@ -1,3 +1,11 @@
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +15,7 @@
 html {
 font-size: 16px;
  background-color:#EDF2E9; 
+font-family: "Inter", sans-serif;
 }
 
 body {
@@ -23,6 +32,7 @@ h1 {
   text-align: center;
   letter-spacing: 1px;
   color: white;
+  font-weight: 500;
 }
 
 .intro{
@@ -40,24 +50,28 @@ h3{
   text-align: right;
   letter-spacing: 1px;
   color: white;
+  font-weight: 200;
 }
 
 h2 {
   font-size: 1.5rem;
   padding-bottom: .4em;
   padding-top: .4em;
+  font-weight: 700;
 }
 
 p {
   padding-bottom: .6em;
+  font-weight: 300;
 }
 
 a {
-  font-size: .8rem;
+  font-size: .5rem;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
   font-style: italic;
+  font-weight: 700;
 }
 
 a:hover{
